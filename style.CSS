@@ -1,0 +1,80 @@
+#one #menu {
+	display: flex;
+}
+#one #menu a {
+	margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	font: 16px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid #16A177;
+	background-color: #16A177;
+}
+#one #menu a:hover {
+	color: #16A177;
+	border: 1px solid #16A177;
+	background-color: white;
+}
+#one #menu a:hover, #one #menu a.active {
+	color: #16A177;
+	border: 1px solid #16A177;
+	background-color: white;
+}
+
+#two #menu {
+	display: flex;
+    flex-direction: column;
+}
+#two #menu a {
+	margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	font: 16px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid #16A177;
+	background-color: #16A177;
+    width: 250px;
+}
+#two #menu a:hover {
+	color: blue;
+	border: 1px solid blue;
+	background-color: white;
+}
+#two #menu a:hover, #two #menu a.active {
+	color: #16A177;
+	border: 1px solid #16A177;
+	background-color: white;
+}
+
+#three #menu {
+	display: flex;
+    flex-direction: row;
+}
+#three #menu a {
+	margin-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	font: 16px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid #16A177;
+	background-color: #16A177;
+}
+#three #menu a:hover {
+	color: blue;
+	border: 1px solid blue;
+	background-color: white;
+}
+#three #menu a:hover, #three #menu a.active {
+	color: white;
+	border: 1px solid #16785C;
+	background-color: #16785C;
+}
